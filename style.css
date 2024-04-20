@@ -1,0 +1,575 @@
+@font-face {
+  font-family: "trade,gothic";
+  src: url(./fonts/TradeGothicLT-Light.ttf);
+}
+@font-face {
+  font-family: "Blender";
+  src: url(./fonts/BlenderPro-Medium.ttf);
+}
+
+.top-background {
+  width: 1536px;
+  height: 725.7px;
+  position: relative;
+}
+body {
+  margin: 0;
+ 
+}
+ul.inline li {
+  font-family: "Blender";
+  display: inline;
+  padding: 17px;
+  font-weight: 700;
+  font-size: large;
+  letter-spacing: 1px;
+}
+.navigation-button {
+  position: absolute;
+  top: 44px;
+  left: -20px;
+  color: white;
+}
+#ktm-logo {
+  width: 161.01px;
+  height: 145px;
+  position: absolute;
+  top: -44px;
+  right: -553px;
+}
+.global {
+  font-size: 22px;
+  position: absolute;
+  top: 17px;
+  right: -352px;
+  color: #f60;
+}
+.location {
+  font-size: 22px;
+  position: absolute;
+  top: 17px;
+  right: -297px;
+  color: #f60;
+}
+.next-level-moto {
+  position: absolute;
+  top: 222px;
+  right: 54px;
+  font-size: 24px;
+  font-family: "Blender";
+  letter-spacing: 1px;
+}
+.ktm-sx-range {
+  position: absolute;
+  top: 225px;
+  right: -203px;
+  font-family: "Blender";
+  font-size: 85px;
+}
+.explore-more {
+  position: absolute;
+  top: 401px;
+  right: 35px;
+  font-family: "Blender";
+  font-size: 20px;
+  padding: 26px 50px;
+  color: white;
+  background-color: #f60;
+  border: none;
+  cursor: pointer;
+}
+.explore-more:hover {
+  background: none;
+  border: 1px solid #f60;
+  color: #f60;
+  transition: 0.5s;
+}
+.banner {
+  width: 1439.2px;
+  height: 402.01px;
+  position: absolute;
+  top: 802px;
+  right: 37px;
+  cursor: pointer;
+}
+.KTM-CONFIGURATER {
+  color: rgb(255, 255, 255);
+  font-size: 21.7px;
+  letter-spacing: 1px;
+  font-family: "Blender";
+  position: absolute;
+  top: 878px;
+  right: 659px;
+}
+.CONFIGURE-THE-BIKE-OF-YOUR-DREAMS {
+  font-family: "Blender";
+  font-size: 82px;
+  position: absolute;
+  top: 847px;
+  right: 252px;
+  text-align: center;
+  color: white;
+}
+.CONFIGURE-THE-BIKE-OF-YOUR-DREAMS:hover {
+  display: none;
+}
+.KTM-CONFIGURATER:hover {
+  display: none;
+}
+.ktm-duke {
+  position: absolute;
+  top: 1281px;
+  right: 1010px;
+  width: 466.39px;
+  height: 434.13px;
+}
+.adv-390 {
+  position: absolute;
+  top: 1281px;
+  right: 520px;
+  width: 466.39px;
+  height: 434.13px;
+}
+.rc-22 {
+  position: absolute;
+  top: 1281px;
+  right: 32px;
+  width: 466.39px;
+  height: 434.13px;
+}
+.GET-DUKED {
+  font-family: "Blender";
+  font-size: 17px;
+  position: absolute;
+  top: 1716px;
+  right: 1391px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.KTM-NAKED {
+  font-family: "Blender";
+  position: absolute;
+  top: 1734px;
+  left: 36px;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.GOADVENTUR {
+  font-family: "Blender";
+  font-size: 17px;
+  position: absolute;
+  top: 1716px;
+  right: 870px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.ktm-travel {
+  font-family: "Blender";
+  position: absolute;
+  top: 1734px;
+  left: 535px;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.RACE-BRED-PERFORMANCE {
+  font-family: "Blender";
+  font-size: 17px;
+  position: absolute;
+  top: 1716px;
+  right: 287px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.KTM-SUPERSPORT {
+  font-family: "Blender";
+  position: absolute;
+  top: 1734px;
+  left: 1023px;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.aron {
+  position: absolute;
+  top: 1884px;
+  right: 1010px;
+  width: 466.39px;
+  height: 434.13px;
+}
+.moto-gb {
+  position: absolute;
+  top: 1884px;
+  right: 520px;
+  width: 466.39px;
+  height: 434.13px;
+}
+.tren {
+  position: absolute;
+  top: 1884px;
+  right: 31px;
+  width: 466.39px;
+  height: 434.13px;
+}
+.date-one {
+  font-family: "Blender";
+  font-size: 17px;
+  position: absolute;
+  top: 2325px;
+  right: 1377px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.date-two {
+  font-family: "Blender";
+  font-size: 17px;
+  position: absolute;
+  top: 2325px;
+  right: 886px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.date-three {
+  font-family: "Blender";
+  font-size: 17px;
+  position: absolute;
+  top: 2325px;
+  right: 399px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.date-one-description {
+  font-family: "Blender";
+  position: absolute;
+  top: 2370px;
+  left: 45px;
+  font-weight: 1000;
+  font-size: 32px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.date-one-description:hover {
+  color: #f60;
+}
+.date-two-description {
+  font-family: "Blender";
+  position: absolute;
+  top: 2370px;
+  left: 534px;
+  font-weight: 1000;
+  font-size: 32px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.date-two-description:hover {
+  color: #f60;
+}
+.date-three-description {
+  font-family: "Blender";
+  position: absolute;
+  top: 2370px;
+  left: 1020px;
+  font-weight: 1000;
+  font-size: 32px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.date-three-description:hover {
+  color: #f60;
+}
+.red-bull {
+  position: absolute;
+  top: 2516px;
+  left: 45px;
+  font-family: "trade,gothic";
+  font-size: medium;
+  letter-spacing: 1px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.championship {
+  position: absolute;
+  top: 2516px;
+  left: 533px;
+  font-family: "trade,gothic";
+  font-size: medium;
+  letter-spacing: 1px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.mx2-victory {
+  position: absolute;
+  top: 2516px;
+  left: 1018px;
+  font-family: "trade,gothic";
+  font-size: medium;
+  letter-spacing: 1px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.black-bord {
+  width:764.6px;
+  height: 540px;
+  background-color: black;
+  position: absolute;
+  top: 2689px;
+  left: 751px;
+}
+.FIND-US-ON-INSTAGRAM {
+  position: absolute;
+  top: 138px;
+  left: 147px;
+  color: rgb(255 255 255);
+  font-size: 47px;
+  font-family: "Blender";
+}
+.Get-your-daily {
+  position: absolute;
+  top: 238px;
+  left: 196px;
+  color:#bdbdbd;
+  font-size: 24px;
+}
+.INSTAGRAM {
+  font-size: 17px;
+  color: white;
+  position: absolute;
+  top: 344px;
+  left: 312px;
+  cursor: pointer;
+}
+
+.follow-us {
+  font-family: "trade,gothic";
+  color: white;
+  position: absolute;
+  top: 320px;
+  left: 293px;
+  border: 1px solid white;
+  padding: 21.87px 45.0036px;
+  text-align: right;
+  cursor: pointer;
+}
+.video-thumanil {
+  width: 363.6px;
+  height: 270px;
+  position: absolute;
+  top: 0px;
+  left: -727px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.ktm-video {
+  width: 363.6px;
+  height: 270px;
+  position: absolute;
+  top: 0px;
+  left: -363px;
+  object-fit: cover;
+}
+.ktm-video-2 {
+  width: 363.6px;
+  height: 270px;
+  position: absolute;
+  top: 270px;
+  left: -363px;
+  object-fit: cover;
+}
+.ktm-video-3 {
+  width: 363.6px;
+  height: 270px;
+  position: absolute;
+  top: 270px;
+  left: -727px;
+  object-fit: cover;
+}
+
+.JOIN-THE-KTM-NEWSLETTER {
+  color: black;
+  font-size: 23.4px;
+  font-family: "Blender";
+  position: absolute;
+  top: 594px;
+  left: -211px;
+  letter-spacing: 1px;
+}
+.SIGN-UP {
+  border: 1px solid #f60;
+  font-family: "Blender";
+  position: absolute;
+  top: 594px;
+  left: 89px;
+  letter-spacing: 1px;
+  color: #f60;
+  padding: 25px 50px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.white-background {
+  background-color: rgb(255, 255, 255);
+  width: 1519.2px;
+  height: 242.55px;
+  position: absolute;
+  top: 3443px;
+  left: 0px;
+  border: 1px solid rgb(0, 0, 0);
+  border-bottom: none;
+}
+.whitebord-discribtion {
+  position: absolute;
+  top: 3475px;
+  left: 346px;
+  font-family: "trade,gothic";
+  color: #bdbdbd;
+  line-height: 26px;
+  font-size: 13px;
+}
+.footer {
+  position: relative;
+  top:3000px;
+  left: 1px;
+  background-color: black;
+  width: 1499.2px;
+  height: 589px;
+  
+  
+}
+ul.fotter-ul li {
+  font-family: "trade,gothic";
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 30px;
+
+  
+  
+}
+.footer-discribtion {
+  position: absolute;
+  top: 104px;
+  left: 25px;
+}
+.the-company {
+  font-family: "Blender";
+  position: absolute;
+  top: 43px;
+  left: 65px;
+  color: white;
+  font-size: 23px;
+}
+
+.KTM-WORLD{
+  font-family: "Blender";
+  position: absolute;
+  top: 43px;
+  left: 305px;
+  color: white;
+  font-size: 23px
+}
+ul.fotter-ul-2{
+  font-family: "trade,gothic";
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footer-discribtion-2{
+
+  position: absolute;
+  top: 104px;
+  left: 264px;
+
+}
+.SERVICE{
+  font-family: "Blender";
+  position: absolute;
+  top: 43px;
+  left: 545px;
+  color: white;
+  font-size: 23px
+}
+ul.fotter-ul-3{
+  font-family: "trade,gothic";
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footer-discribtion-3{
+
+  position: absolute;
+  top: 104px;
+  left: 507px;
+
+}
+.LEGAL{
+
+  font-family: "Blender";
+  position: absolute;
+  top: 43px;
+  left: 788px;
+  color: white;
+  font-size: 23px
+
+
+}
+ul.fotter-ul-4{
+  font-family: "trade,gothic";
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footer-discribtion-4 {
+  position: absolute;
+  top: 104px;
+  left: 746px;
+}
+.CONNECT{
+  
+  font-family: "Blender";
+  position: absolute;
+  top: 43px;
+  left: 1056px;
+  color: white;
+  font-size: 23px;
+}
+.social-logo {
+  width: 294px;
+  height: 69px;
+  position: absolute;
+  top: 134px;
+  left: 969px;
+}
+.line {
+  width: 1386px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  top: 476px;
+  left: 56px;
+}
+.last-content {
+  position: absolute;
+  top: 521px;
+  left: 56px;
+  color: #bdbdbd;
+}
+.BACK-TO-TOP {
+  position: absolute;
+  top: 512px;
+  right: 55px;
+  color: #f60;
+  font-size: 21px;
+  font-family: "Blender";
+
+}
+.back-to-top-image {
+  position: absolute;
+  top: 502px;
+  right: 8px;
+  cursor: pointer;
+}
